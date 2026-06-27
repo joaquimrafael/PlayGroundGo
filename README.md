@@ -1,5 +1,7 @@
 # PlayGround Go
 
+Validando comportamentos e testando pacotes e modulos.
+
 ## 1. commitar o código que será a v1.0.0
 
 git add .
