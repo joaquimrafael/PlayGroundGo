@@ -15,3 +15,5 @@ git tag v1.0.0
 
 git push origin main
 git push origin v1.0.0
+
+** Importante validar as diferentes versions a partir da regra idiomatica (v x.y.z -> x = breaking/major ; y = minor/compatible ; z = patch/bugs)

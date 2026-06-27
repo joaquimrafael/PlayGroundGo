@@ -3,6 +3,7 @@ package packagesandmodules
 import "golang.org/x/exp/constraints"
 
 // Type to define numbers
+// Interface using constraints
 type Number interface {
 	constraints.Integer | constraints.Float
 }
