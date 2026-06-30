@@ -8,7 +8,7 @@ import (
 
 func BuildMap() map[int]float64 {
 	nums := make(map[int]float64, 100_000)
-	for key := 0; key < 100_000; key++ {
+	for key := range 100_000 {
 		nums[key] = math.Sqrt(float64(key))
 	}
 	return nums
